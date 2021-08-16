@@ -7,3 +7,6 @@ javascript
 git
 react
 Maybe english
+HTML
+Soft Skills
+
