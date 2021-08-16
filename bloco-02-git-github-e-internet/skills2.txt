@@ -6,3 +6,5 @@ Python
 javascript
 git
 react
+HTML
+Soft Skills
