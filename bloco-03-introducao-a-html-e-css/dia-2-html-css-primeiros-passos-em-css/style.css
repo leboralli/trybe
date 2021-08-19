@@ -1,0 +1,28 @@
+h1 {
+    color: orange;
+    font-size: 65px;
+    font-family: sans-serif;
+}
+
+ul {
+    background-color: blue;
+}
+
+.praticando {
+    
+}
+
+p{
+  font-weight: 4em;
+}
+
+body{
+  font-size: 20px;
+}
+
+ul {
+  font-style: italic;
+  line-height: 20px;
+  text-decoration: rebeccapurple;
+  font-weight: bold;
+}
