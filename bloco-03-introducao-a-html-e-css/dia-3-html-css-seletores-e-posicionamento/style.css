@@ -1,28 +1,27 @@
-/* div:hover {
-  background-color: cyan;
-} */
-
-#d1:hover {
-  background-color: darkgreen;
+.caixa {
+  color: white;
+  display: inline-block;
+  line-height: 50px;
+  text-align: center;
+  vertical-align: top;
 }
 
-#d2:hover {
-  background-color: darkred   ;
+.width-and-height {
+  height: 50px;
+  width: 50px;
 }
 
-#d3:hover {
-  background-color: darkviolet;
-  size: 50px;
+/* insira na classe abaixo um padding de 20px para aplicá-lo aos itens B, C e D */
+.padding {
+  padding: 20px;
 }
 
-#d4:hover {
-  background-color: rgb(4, 2, 73);
+/* insira na classe abaixo uma margem de 30px para aplicá-la aos itens C e D */
+.margin {
+  margin: 30px;
 }
 
-#d5:hover {
-  background-color: rgb(233, 143, 8);
-}
-
-#h3 {
-  font-size: larger;
+/* insira na classe abaixo uma borda com valor '5px solid black' para aplicá-la ao item D */
+.border {
+  border: 5px solid black;
 }
