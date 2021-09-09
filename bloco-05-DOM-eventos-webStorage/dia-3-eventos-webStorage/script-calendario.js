@@ -61,6 +61,10 @@ feriados.addEventListener('click', mudarFundoFeriados);
 function mudarFundoFeriados(){
   let holiday = document.querySelectorAll(".holiday");
   for (let index in holiday) {
+    if (holiday[index].style.color === 'rgb('+ 238 + ',' + 238 + ',' + 238 +')'){
     holiday[index].style.color = 'red';
+    } else {
+    holiday[index].style.color = 'rgb('+238+','+238+','+238+')'
+    }
   }
 }
