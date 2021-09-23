@@ -19,27 +19,38 @@ figure {
     margin: 0;
 }
 
-@media screen and (min-width: 650px) {
+@media screen and (max-width: 650px) {
   body {
     background-color: blue; 
     font-size: medium;
     margin: 15px;
   }
 
-  figure img{
+  figure {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: column;  */
     flex-wrap: wrap;
-    /* flex-basis: auto; */
+    flex-basis: auto;
+    /* flex-grow: 0; */
   } 
-  img {
-    max-width: 80%;
-    margin-bottom: 30px;
-    width: 250px;
-    height: 252px;
+
+  figure h2 {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-basis: 100%;
+  }
+  figure img {
+    max-width: 50%;
+    margin-bottom: 30px;
+    width: 150px;
+    height: 152px;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    flex-basis: 25%;
+  }
+  figure figcaption {
+    flex-basis: 100%;
+    flex-direction: column;
   }
   /* img:nth-child(-n+2) {
     display: flex;
