@@ -1,1 +1,3 @@
 node_modules/
+loginValidation.js
+loginValidation.test.js
