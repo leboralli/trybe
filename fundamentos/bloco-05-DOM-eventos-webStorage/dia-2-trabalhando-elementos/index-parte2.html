@@ -1,0 +1,37 @@
+<main id="paiDoPai">
+  <section id="pai">
+    <section id="primeiroFilho"></section>
+    <section id="elementoOndeVoceEsta">
+      <section id="primeiroFilhoDoFilho"></section>
+      <section id="segundoEUltimoFilhoDoFilho"></section>
+    </section>
+    Atenção!
+    <section id="terceiroFilho"></section>
+    <section id="quartoEUltimoFilho"></section>
+  </section>
+  <script>
+    document.querySelector('#elementoOndeVoceEsta').parentNode.style.color = "green";
+    document.querySelector('#elementoOndeVoceEsta').firstElementChild.innerText = 
+      "Testando o texto no id primeiroFilhodoFilho";
+    document.querySelector("#pai").firstElementChild;
+    document.querySelector('#elementoOndeVoceEsta').lastElementChild;
+    // document.querySelector('#elementoOndeVoceEsta').parentNode.parentNode.innerText = "testandoooo";
+    document.querySelector('#elementoOndeVoceEsta').nextSibling.nextSibling;
+    document.querySelector('#pai').lastElementChild.previousElementSibling;
+
+
+    // Parte 2
+    let ondeVoceEsta = document.querySelector('#elementoOndeVoceEsta');
+    let pai = document.querySelector('#pai')[0];
+    // let pai = document.getElementsByTagName('pai')[0];
+
+    console.log(pai);
+    // let irmaoSection = document.createElement("section");
+    // // console.log(irmaoSection);
+    // irmaoSection.className = "irmaoOndeEstou";
+    // // irmaoSection.setAttribute("id", "outroIrmao")
+    // // console.log(irmaoSection)
+    // pai.appendChild(irmaoSection);
+    // console.log(document.querySelector('#pai')[0])
+  </script>
+</main>

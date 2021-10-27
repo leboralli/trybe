@@ -1,0 +1,4 @@
+A = int(input("Escreva o numero A: "))
+B = int(input("Escreva o numero B: "))
+
+print("A = ", B, "B = ", A)

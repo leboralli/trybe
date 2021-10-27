@@ -1,0 +1,59 @@
+
+h1 {
+    text-align: center;
+}
+
+.first {
+    background-color: rgb(235, 200, 84);
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+    width: 200px;
+    display: block;
+    margin: 5px auto;
+}
+
+.second {
+    background-color: rgb(219, 219, 219);
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+    width: 300px;
+    display: inline-block;
+    margin: 5px auto;
+}
+
+.third {
+    background-color: rgb(170, 142, 106);
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+    width: 300px;
+    display: inline-block;
+    
+}
+
+.main {
+    border: 1px solid black;
+    display: flex;
+}
+
+.resultados {
+    text-align: center;
+}
+.resultados li{
+    display: inline;
+}
+
+.box li {
+    display:flexbox
+}
+
+.box{
+    width: 100%;
+}
+
+.dois-tres {
+    width: 100%;
+    margin: 5px auto;
+}

@@ -1,0 +1,23 @@
+div:hover {
+    border: 2px solid black;
+}
+
+#d1 {
+    background-color: rosybrown;
+}
+
+#d2 {
+    background-color: burlywood;
+}
+
+#d3 {
+    background-color: rgb(240, 238, 134);
+}
+
+#d4 {
+    background-color: rgb(114, 32, 32);
+}
+
+#d5 {
+    background-color: rgb(113, 111, 238);
+}
